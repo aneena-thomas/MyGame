@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0B0EF7D174CF46DBC01EEA85C8BC656F363F7989",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4BCE63CA93DD9144E1199C99B87ECDC11AA9FD9C" : 0,
+    "0B0EF7D174CF46DBC01EEA85C8BC656F363F7989" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6A01336D-19E8-4620-B17F-2051B1ED2F1E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4BCE63CA93DD9144E1199C99B87ECDC11AA9FD9C" : "",
+    "0B0EF7D174CF46DBC01EEA85C8BC656F363F7989" : "MyGame\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MyGame",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MyGame\/MyGame.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aneena-thomas\/MyGame.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0B0EF7D174CF46DBC01EEA85C8BC656F363F7989"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aneena-thomas\/Sample.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4BCE63CA93DD9144E1199C99B87ECDC11AA9FD9C"
+    }
+  ]
+}

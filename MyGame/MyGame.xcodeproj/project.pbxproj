@@ -14,6 +14,19 @@
 		F1AF9F3F1C199D9A004A3368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1AF9F3D1C199D9A004A3368 /* Main.storyboard */; };
 		F1AF9F411C199D9A004A3368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1AF9F401C199D9A004A3368 /* Assets.xcassets */; };
 		F1AF9F441C199D9A004A3368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1AF9F421C199D9A004A3368 /* LaunchScreen.storyboard */; };
+		F1AF9F4C1C19A095004A3368 /* GameOfLifeAssets in Resources */ = {isa = PBXBuildFile; fileRef = F1AF9F4B1C19A095004A3368 /* GameOfLifeAssets */; settings = {ASSET_TAGS = (); }; };
+		F1AF9F4E1C19A395004A3368 /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AF9F4D1C19A395004A3368 /* grid.png */; settings = {ASSET_TAGS = (); }; };
+		F1AF9F501C19A39D004A3368 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AF9F4F1C19A39D004A3368 /* background.png */; settings = {ASSET_TAGS = (); }; };
+		F1AF9F521C19A73F004A3368 /* balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AF9F511C19A73F004A3368 /* balloon.png */; settings = {ASSET_TAGS = (); }; };
+		F1AF9F541C19A746004A3368 /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AF9F531C19A746004A3368 /* bubble.png */; settings = {ASSET_TAGS = (); }; };
+		F1AF9F561C19A74A004A3368 /* microscope.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AF9F551C19A74A004A3368 /* microscope.png */; settings = {ASSET_TAGS = (); }; };
+		F1AF9F581C19A74F004A3368 /* button-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AF9F571C19A74F004A3368 /* button-pressed.png */; settings = {ASSET_TAGS = (); }; };
+		F1AF9F5A1C19A754004A3368 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AF9F591C19A754004A3368 /* button.png */; settings = {ASSET_TAGS = (); }; };
+		F1AF9F5C1C19A758004A3368 /* pause-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AF9F5B1C19A758004A3368 /* pause-pressed.png */; settings = {ASSET_TAGS = (); }; };
+		F1AF9F5E1C19A75C004A3368 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AF9F5D1C19A75C004A3368 /* pause.png */; settings = {ASSET_TAGS = (); }; };
+		F1AF9F601C19A760004A3368 /* play-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AF9F5F1C19A760004A3368 /* play-pressed.png */; settings = {ASSET_TAGS = (); }; };
+		F1AF9F621C19A765004A3368 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AF9F611C19A765004A3368 /* play.png */; settings = {ASSET_TAGS = (); }; };
+		F1AF9F641C19C4B8004A3368 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AF9F631C19C4B7004A3368 /* Tile.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +39,19 @@
 		F1AF9F401C199D9A004A3368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1AF9F431C199D9A004A3368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1AF9F451C199D9A004A3368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1AF9F4B1C19A095004A3368 /* GameOfLifeAssets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GameOfLifeAssets; path = ../../../../../Downloads/GameOfLifeAssets; sourceTree = "<group>"; };
+		F1AF9F4D1C19A395004A3368 /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
+		F1AF9F4F1C19A39D004A3368 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		F1AF9F511C19A73F004A3368 /* balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon.png; sourceTree = "<group>"; };
+		F1AF9F531C19A746004A3368 /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble.png; sourceTree = "<group>"; };
+		F1AF9F551C19A74A004A3368 /* microscope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microscope.png; sourceTree = "<group>"; };
+		F1AF9F571C19A74F004A3368 /* button-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-pressed.png"; sourceTree = "<group>"; };
+		F1AF9F591C19A754004A3368 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		F1AF9F5B1C19A758004A3368 /* pause-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause-pressed.png"; sourceTree = "<group>"; };
+		F1AF9F5D1C19A75C004A3368 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		F1AF9F5F1C19A760004A3368 /* play-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-pressed.png"; sourceTree = "<group>"; };
+		F1AF9F611C19A765004A3368 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		F1AF9F631C19C4B7004A3368 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +87,21 @@
 				F1AF9F351C199D99004A3368 /* AppDelegate.swift */,
 				F1AF9F371C199D99004A3368 /* GameScene.sks */,
 				F1AF9F391C199D99004A3368 /* GameScene.swift */,
+				F1AF9F631C19C4B7004A3368 /* Tile.swift */,
 				F1AF9F3B1C199D9A004A3368 /* GameViewController.swift */,
 				F1AF9F3D1C199D9A004A3368 /* Main.storyboard */,
+				F1AF9F4F1C19A39D004A3368 /* background.png */,
+				F1AF9F511C19A73F004A3368 /* balloon.png */,
+				F1AF9F531C19A746004A3368 /* bubble.png */,
+				F1AF9F551C19A74A004A3368 /* microscope.png */,
+				F1AF9F591C19A754004A3368 /* button.png */,
+				F1AF9F4D1C19A395004A3368 /* grid.png */,
+				F1AF9F571C19A74F004A3368 /* button-pressed.png */,
+				F1AF9F5D1C19A75C004A3368 /* pause.png */,
+				F1AF9F5B1C19A758004A3368 /* pause-pressed.png */,
+				F1AF9F5F1C19A760004A3368 /* play-pressed.png */,
+				F1AF9F611C19A765004A3368 /* play.png */,
+				F1AF9F4B1C19A095004A3368 /* GameOfLifeAssets */,
 				F1AF9F401C199D9A004A3368 /* Assets.xcassets */,
 				F1AF9F421C199D9A004A3368 /* LaunchScreen.storyboard */,
 				F1AF9F451C199D9A004A3368 /* Info.plist */,
@@ -128,9 +167,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1AF9F381C199D99004A3368 /* GameScene.sks in Resources */,
+				F1AF9F621C19A765004A3368 /* play.png in Resources */,
+				F1AF9F5A1C19A754004A3368 /* button.png in Resources */,
 				F1AF9F441C199D9A004A3368 /* LaunchScreen.storyboard in Resources */,
+				F1AF9F541C19A746004A3368 /* bubble.png in Resources */,
+				F1AF9F501C19A39D004A3368 /* background.png in Resources */,
 				F1AF9F411C199D9A004A3368 /* Assets.xcassets in Resources */,
+				F1AF9F561C19A74A004A3368 /* microscope.png in Resources */,
+				F1AF9F5C1C19A758004A3368 /* pause-pressed.png in Resources */,
+				F1AF9F4C1C19A095004A3368 /* GameOfLifeAssets in Resources */,
+				F1AF9F521C19A73F004A3368 /* balloon.png in Resources */,
+				F1AF9F5E1C19A75C004A3368 /* pause.png in Resources */,
+				F1AF9F601C19A760004A3368 /* play-pressed.png in Resources */,
 				F1AF9F3F1C199D9A004A3368 /* Main.storyboard in Resources */,
+				F1AF9F581C19A74F004A3368 /* button-pressed.png in Resources */,
+				F1AF9F4E1C19A395004A3368 /* grid.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +195,7 @@
 				F1AF9F3A1C199D99004A3368 /* GameScene.swift in Sources */,
 				F1AF9F3C1C199D9A004A3368 /* GameViewController.swift in Sources */,
 				F1AF9F361C199D99004A3368 /* AppDelegate.swift in Sources */,
+				F1AF9F641C19C4B8004A3368 /* Tile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +343,7 @@
 				F1AF9F4A1C199D9A004A3368 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
